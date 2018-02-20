@@ -1,2 +1,2 @@
 # codeforces-train
-every day codding chalange
+every day coding challenge
