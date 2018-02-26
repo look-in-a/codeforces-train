@@ -2,7 +2,6 @@
 // http://codeforces.com/contest/937
 
 #include <iostream>
-#include <math.h>
 
 using namespace std;
 
@@ -12,8 +11,7 @@ int main() {
 
 	for (long long i = y; i >= p+1; i--) {
 		bool notDevided = true;
-		long long lsqrt = sqrt(i);
-		for (int j = 2; j <= min(lsqrt, p); j++){
+		for (int j = 2; j <=  p && j*j <= i; j++){
 			if (i % j == 0) {
 				notDevided = false;
 				break;
