@@ -1,13 +1,10 @@
 // 01.03.2018
 // http://codeforces.com/contest/899
-
-
 #include <iostream>
 
 using namespace std;
 
 int main() {
-
 	int n;
 	cin >> n;
 	int couples = 0;
