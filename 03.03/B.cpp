@@ -37,11 +37,9 @@ int main() {
 	int a, b, c;
 	cin >> a >> b >> c;
 	int len = 0;
-	//cout << "0,";
 	for (int i = 0; i <= b + 1 ; ++i) {
 		a *= 10;
 		int d = a / b;
-		//cout << d << " ";
 		len += length(d);
 		int index = indexFromEnd(d, c);
 		if (index > -1) {
