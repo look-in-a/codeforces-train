@@ -21,11 +21,9 @@ int main () {
 		++a[b];
 	}
 	long long cnt = 0;
-	//sort(a.begin(), a.end());
 	for (auto i = a.rbegin(); i != a.rend(); ++i) {
 		if (i->first % x != 0 || k != 0) {
 			a1[i->first / x] += i->second;
-			//cout << a1[a[i]/x] << " ";
 		}
 		int b = k + (i->first - 1)/x;
 		long long second = i->second;
